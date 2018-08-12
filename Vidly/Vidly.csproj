@@ -218,6 +218,26 @@
     <Compile Include="Migrations\201808112230511_ApplyAnotationstoCustomerName.Designer.cs">
       <DependentUpon>201808112230511_ApplyAnotationstoCustomerName.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201808112338232_AddMembershipName.cs" />
+    <Compile Include="Migrations\201808112338232_AddMembershipName.Designer.cs">
+      <DependentUpon>201808112338232_AddMembershipName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201808112342394_AddMembershipName1.cs" />
+    <Compile Include="Migrations\201808112342394_AddMembershipName1.Designer.cs">
+      <DependentUpon>201808112342394_AddMembershipName1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201808112343369_AddMembershipName2.cs" />
+    <Compile Include="Migrations\201808112343369_AddMembershipName2.Designer.cs">
+      <DependentUpon>201808112343369_AddMembershipName2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201808120048452_AddDateofBirth.cs" />
+    <Compile Include="Migrations\201808120048452_AddDateofBirth.Designer.cs">
+      <DependentUpon>201808120048452_AddDateofBirth.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201808120104343_AddDateofBirth1.cs" />
+    <Compile Include="Migrations\201808120104343_AddDateofBirth1.Designer.cs">
+      <DependentUpon>201808120104343_AddDateofBirth1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -358,6 +378,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201808112230511_ApplyAnotationstoCustomerName.resx">
       <DependentUpon>201808112230511_ApplyAnotationstoCustomerName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201808112338232_AddMembershipName.resx">
+      <DependentUpon>201808112338232_AddMembershipName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201808112342394_AddMembershipName1.resx">
+      <DependentUpon>201808112342394_AddMembershipName1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201808112343369_AddMembershipName2.resx">
+      <DependentUpon>201808112343369_AddMembershipName2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201808120048452_AddDateofBirth.resx">
+      <DependentUpon>201808120048452_AddDateofBirth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201808120104343_AddDateofBirth1.resx">
+      <DependentUpon>201808120104343_AddDateofBirth1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
