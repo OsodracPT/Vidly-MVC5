@@ -23,6 +23,7 @@ namespace Vidly.Models
         public Genres Genres { get; set; }
 
         [Display(Name = "Genre")]
+        [Required]
         public byte GenresId { get; set; }
 
 
