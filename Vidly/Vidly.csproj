@@ -254,6 +254,10 @@
     <Compile Include="Migrations\201808251644121_newViewModel.Designer.cs">
       <DependentUpon>201808251644121_newViewModel.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201808261732340_NewRequiredPropsInMovies.cs" />
+    <Compile Include="Migrations\201808261732340_NewRequiredPropsInMovies.Designer.cs">
+      <DependentUpon>201808261732340_NewRequiredPropsInMovies.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -428,6 +432,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201808251644121_newViewModel.resx">
       <DependentUpon>201808251644121_newViewModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201808261732340_NewRequiredPropsInMovies.resx">
+      <DependentUpon>201808261732340_NewRequiredPropsInMovies.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
