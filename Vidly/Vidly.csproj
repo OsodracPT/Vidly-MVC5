@@ -216,6 +216,7 @@
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\MoviesController.cs" />
     <Compile Include="Dtos\CustomerDto.cs" />
+    <Compile Include="Dtos\GenreDto.cs" />
     <Compile Include="Dtos\MembershipTypeDto.cs" />
     <Compile Include="Dtos\MovieDto.cs" />
     <Compile Include="Global.asax.cs">
@@ -281,10 +282,14 @@
     <Compile Include="Migrations\201808261732340_NewRequiredPropsInMovies.Designer.cs">
       <DependentUpon>201808261732340_NewRequiredPropsInMovies.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201808291936369_genre.cs" />
+    <Compile Include="Migrations\201808291936369_genre.Designer.cs">
+      <DependentUpon>201808291936369_genre.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
-    <Compile Include="Models\Genres.cs" />
+    <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MembershipType.cs" />
@@ -623,6 +628,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201808261732340_NewRequiredPropsInMovies.resx">
       <DependentUpon>201808261732340_NewRequiredPropsInMovies.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201808291936369_genre.resx">
+      <DependentUpon>201808291936369_genre.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
