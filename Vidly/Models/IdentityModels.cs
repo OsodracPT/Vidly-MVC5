@@ -16,7 +16,7 @@ namespace Vidly.Models
 
         [Required]
         [StringLength(50)]
-        public string PhoneNumber { get; set; }
+        public override string PhoneNumber { get; set; }
 
         public async Task<ClaimsIdentity> GenerateUserIdentityAsync(UserManager<ApplicationUser> manager)
         {
