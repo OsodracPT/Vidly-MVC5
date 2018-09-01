@@ -13,9 +13,17 @@ namespace Vidly.Controllers.Api
     public class NewRentalsController : ApiController
     {
 
+        private ApplicationDbContext _context;
+
+        public NewRentalsController()
+        {
+            _context = new ApplicationDbContext();
+        }
+
         [HttpPost]
         public IHttpActionResult CreateNewRentals(NewRentalDto newRental)
         {
+
             var customer = _context.Customers.Single(
                 c => c.Id == newRental.CustomerId);
 
@@ -39,6 +47,6 @@ namespace Vidly.Controllers.Api
 
             return Ok();
         }
-
+        
     }
 }
