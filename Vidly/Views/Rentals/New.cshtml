@@ -27,14 +27,16 @@
         </div>
     </div>
 
-    <button class="btn btn-primary">Submit</button>
+    <button type="submit" class="btn btn-primary">Submit</button>
 </form>
+
 @section scripts
 {
     <script>
         $(document).ready(function () {
 
             var vm = {
+                customerId: "",
                 movieIds: []
             };
 
@@ -91,10 +93,11 @@
                     data: vm
                 })
                     .done(function () {
+                        toastr.success("Rentals successfully recorded.")
                         console.log("done");
                     })
                     .fail(function () {
-
+                        toastr.error("Something unexpected happen.")
                     });
             });
         });
