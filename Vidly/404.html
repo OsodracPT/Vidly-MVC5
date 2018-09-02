@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page - My ASP.NET Application</title>
+    <link href="/Content/bootstrap-flatly.css" rel="stylesheet" />
+    <link href="/Content/datatables/css/datatables.bootstrap.css" rel="stylesheet" />
+    <link href="/Content/typeahead.css" rel="stylesheet" />
+    <link href="/Content/toastr.css" rel="stylesheet" />
+    <link href="/Content/site.css" rel="stylesheet" />
+
+    <script src="/Scripts/modernizr-2.8.3.js"></script>
+
+
+</head>
+<body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">Vidly</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="/Rentals/New">New Rental</a></li>
+                    <li><a href="/Customers">Customers</a></li>
+                    <li><a href="/Movies">Movies</a></li>
+                </ul>
+                <form action="/Account/LogOff" class="navbar-right" id="logoutForm" method="post">
+                    <input name="__RequestVerificationToken" type="hidden" value="Ayza_mQqMkmWaOR1Yn4NL63CDxl8tmDURDgaSJCIyI0x3s9K_jOzTTQ5ZUEMXG6GtdJwyvbQBhjnTix2lIITxqfA7YhxAHR1Jt63qmwEFdZYoMrUkozDvfouH0G7yw6AgeOA2kkwq0nLf8bcuJF-Yw2" />    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="/Manage" title="Manage">Hello administrador@vidly.com!</a>
+                        </li>
+                        <li><a href="javascript:document.getElementById('logoutForm').submit()">Log off</a></li>
+                    </ul>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="container body-content">
+
+
+
+        <div class="jumbotron">
+            <h1>404 Error :(</h1>
+            <p class="lead">This page was not found.</p>
+            <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+        </div>
+
+
+        <hr />
+        <footer>
+            <p>&copy; 2018 - My ASP.NET Application</p>
+        </footer>
+    </div>
+
+    <script src="/Scripts/jquery-3.3.1.js"></script>
+    <script src="/Scripts/bootbox.js"></script>
+    <script src="/Scripts/bootstrap.js"></script>
+    <script src="/Scripts/typeahead.bundle.js"></script>
+    <script src="/Scripts/toastr.js"></script>
+    <script src="/Scripts/datatables/jquery.datatables.js"></script>
+    <script src="/Scripts/datatables/datatables.bootstrap.js"></script>
+
+
+    <script type='text/javascript' src='/Glimpse.axd?n=glimpse_client&amp;hash=2c27d780'></script>
+    <script type='text/javascript' src='/Glimpse.axd?n=glimpse_metadata&amp;hash=2c27d780&amp;callback=glimpse.data.initMetadata'></script>
+    <script type='text/javascript' src='/Glimpse.axd?n=glimpse_request&amp;requestId=074187bb-d98b-4a54-921c-a1dcef305c6d&amp;hash=2c27d780&amp;callback=glimpse.data.initData'></script>
+</body>
+</html>
